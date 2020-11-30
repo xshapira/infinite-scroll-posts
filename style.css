@@ -34,6 +34,7 @@ h1 {
 .filter {
   width: 100%;
   padding: 12px;
+  font-size: 1rem;
 }
 
 .post {
@@ -84,7 +85,7 @@ h1 {
   transition: opacity 0.3s ease-in;
 }
 
-.loader .show {
+.loader.show {
   opacity: 1;
 }
 

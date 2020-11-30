@@ -1,6 +1,7 @@
 module.exports = {
   extends: ['airbnb', 'prettier'],
   plugins: ['prettier'],
+  parser: 'babel-eslint',
   env: {
     browser: true,
     es6: true,
@@ -30,5 +31,4 @@ module.exports = {
     'object-shorthand': 'off',
     'class-methods-use-this': 'off',
   },
-  parser: 'babel-eslint',
 };
